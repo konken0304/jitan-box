@@ -1,9 +1,14 @@
 {
+  "rewrites": [
+    {
+      "source": "/jitan-shiwake/:path*",
+      "destination": "/:path*"
+    }
+  ],
   "redirects": [
     {
       "source": "/",
-      "destination": "/jitan-shiwake/",
-      "permanent": false
+      "destination": "/jitan-shiwake/"
     }
   ]
 }
