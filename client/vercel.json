@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/jitan-shiwake", "destination": "/jitan-shiwake/index.html" },
+    { "source": "/jitan-shiwake/", "destination": "/jitan-shiwake/index.html" }
+  ]
+}
