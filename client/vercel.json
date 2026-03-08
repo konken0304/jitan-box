@@ -1,5 +1,7 @@
 {
-  "routes": [
-    { "src": "/jitan-shiwake/?$", "dest": "/jitan-shiwake/index.html" }
+  "rewrites": [
+    { "source": "/jitan-shiwake/assets/:path*", "destination": "/assets/:path*" },
+    { "source": "/jitan-shiwake", "destination": "/index.html" },
+    { "source": "/jitan-shiwake/:path*", "destination": "/index.html" }
   ]
 }

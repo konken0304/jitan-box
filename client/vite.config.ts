@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/jitan-shiwake/',
   build: {
-    outDir: "dist/jitan-shiwake",
+    outDir: "dist",
     emptyOutDir: true,
   },
   resolve: {
