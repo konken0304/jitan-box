@@ -1,5 +1,7 @@
 {
   "rewrites": [
-    { "source": "/jitan-shiwake/:path*", "destination": "/index.html" }
+    { "source": "/jitan-shiwake", "destination": "/index.html" },
+    { "source": "/jitan-shiwake/(.*)", "destination": "/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
