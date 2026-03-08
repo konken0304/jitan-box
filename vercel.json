@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/jitan-shiwake/",
+      "permanent": false
+    }
+  ]
+}

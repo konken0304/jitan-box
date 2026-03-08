@@ -4,6 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
+  base: '/jitan-shiwake/',
   build: {
     outDir: "dist",
     emptyOutDir: true,
