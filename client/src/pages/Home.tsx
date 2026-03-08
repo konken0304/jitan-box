@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Upload, Download, FileSpreadsheet, Check, AlertCircle, HelpCircle } from "lucide-react";
-import { trpc } from "../lib/trpc";
+import { accountItems } from "../lib/accountItems";
 import {
   parseExcelFile,
   extractCompanies,
@@ -44,8 +44,6 @@ export default function Home() {
   const [selectedCompanyIndex, setSelectedCompanyIndex] = useState<number | null>(null);
   const [isProcessing, setIsProcessing] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
-
-  const { data: accountItems = [] } = trpc.accountItems.list.useQuery();
 
   const processFile = async (selectedFile: File) => {
     setFile(selectedFile);
