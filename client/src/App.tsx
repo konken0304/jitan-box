@@ -6,6 +6,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <Switch>
         <Route path="/" component={Home} />
+        <Route path="/jitan-shiwake" component={Home} />
         <Route>
           <div className="flex items-center justify-center min-h-screen">
             <div className="text-center">
