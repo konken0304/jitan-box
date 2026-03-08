@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "outDir": "./dist/server",
+    "noEmit": false,
+    "lib": ["ES2022"]
+  },
+  "include": ["server", "drizzle", "shared"],
+  "exclude": ["node_modules"]
+}
